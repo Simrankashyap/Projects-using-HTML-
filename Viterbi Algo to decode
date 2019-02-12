@@ -1,0 +1,6 @@
+clc;
+t=poly2trellis([4 3],[4 5 17;7 4 2]);
+code = convenc([1 0 1 0 1 1],t);
+tb = 2;
+code
+decode = vitdec(code,t,tb,'trunc','hard')
