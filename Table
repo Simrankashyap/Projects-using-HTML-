@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC  "-//WAPFORUM//DTD WML1.2//EN" "http://wapforum.org/DTD/wml12.dtd">
+
+<wml>
+
+
+
+<card id="one" title="first card">
+
+<p align="center"><big><b> Online Entertainment Booking</b></big> </p>
+<style>
+table,th,td,tr{
+border:1px solid green
+}
+</style>
+<table>
+<tr>
+<th><b> S No.</b><th>
+<th><b> Choose Activity </b> </th>
+<th><b> Link </b></th>
+</tr>
+
+<tr>
+<td> 1. </td>
+<td> Movies </td>
+<td><anchor> <go href="#two"/>  here </anchor></td>
+ </tr>
+
+<tr>
+<td> 2. </td>
+<td> Theatre/Play </td>
+<td><anchor> <go href="#three"/>  here </anchor></td>
+ </tr>
+
+<tr>
+<td> 3. </td>
+<td> Music Concert </td>
+<td><anchor> <go href="#four"/>  here </anchor></td>
+ </tr>
+
+</card>
+
+
+
+<card id="two" title="movies">
+
+<p align="center"><big><b> Movies</b></big> </p>
+<style>
+table,th,td,tr{
+border:1px solid green
+}
+</style>
+<table>
+<tr>
+<th><b> S No.</b><th>
+<th><b> Choose Movie </b> </th>
+<th><b> Timing </b></th>
+
+ </tr>
+
+<tr>
+<td> 1. </td>
+<td> Uri </td>
+<td> 3:45 pm, 8:00 pm</td>
+ </tr>
+
+<tr>
+<td> 2. </td>
+<td> Thakrey </td>
+<td> 10:00 am, 9:00pm</td>
+ </tr>
+
+</card>
+
+
+<card id="three" title="first card">
+
+<p align="center"><big><b> Theatre/ Play</b></big> </p>
+<style>
+table,th,td,tr{
+border:1px solid green
+}
+</style>
+<table>
+<tr>
+<th><b> S No.</b><th>
+<th><b> Choose Play </b> </th>
+<th><b> Timing </b></th>
+
+ </tr>
+
+<tr>
+<td> 1. </td>
+<td> Zangoora </td>
+<td> 7:00 pm</td>
+ </tr>
+
+<tr>
+<td> 2. </td>
+<td> Ramleela </td>
+<td> 5:00pm</td>
+ </tr>
+
+</card>
+
+
+<card id="four" title="first card">
+
+<p align="center"><big><b> Music concert </b></big> </p>
+<style>
+table,th,td,tr{
+border:1px solid green
+}
+</style>
+<table>
+<tr>
+<th><b> S No.</b><th>
+<th><b> Choose concert </b> </th>
+<th><b> Timing </b></th>
+
+ </tr>
+
+<tr>
+<td> 1. </td>
+<td> Marshmello </td>
+<td> 8:00 pm</td>
+ </tr>
+
+<tr>
+<td> 2. </td>
+<td> sufi night </td>
+<td> 9:00pm</td>
+ </tr>
+
+</card>
+
+
+</wml>
