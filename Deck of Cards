@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.3//EN" 
+     "http://www.wapforum.org/DTD/wml13.dtd"> 
+<wml> 
+  <!-- Possible <head> elements here. --> 
+  <template> 
+    <!-- Template implementation here. --> 
+    <do type="prev"><prev/></do> 
+  </template> 
+   
+  <card id="card1" title="Card #1"> 
+    <do type="unknown" label="Next">
+      <go href="#card2"/>
+    </do> 
+    <!-- Additional <do> elements here. --> 
+    <p align="center"> 
+      <!-- Card implementation here. --> 
+      <big><b>First Card</b></big> 
+    </p> 
+    <!-- Additional <p> elements here. --> 
+  </card> 
+   
+  <card id="card2" title="Card #2"> 
+	<do type="unknown" label="Next">
+    	  <go href="#card3"/>
+    	</do>        
+	<p align="center"> 
+      <big><b>Second Card</b></big> 
+    </p> 
+  </card> 
+<card id="card3" title="Card #3"> 
+      <do type="unknown" label="Next">
+      <go href="#card1"/>
+    </do> 
+    <!-- Additional <do> elements here. --> 
+       <p align="center"> 
+      <!-- Card implementation here. --> 
+      <big><b>Third Card</b></big> 
+    </p> 
+       </card>
+</wml>
